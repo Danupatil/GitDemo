@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="8" time="0.173">
+    <testcase classname="Portal Login" name="Homepage default login" time="0.044">
+        <system-out><![CDATA[Given Validate the browser..................................................passed
+When Broser is triggered....................................................passed
+Then Check if browser is started............................................passed
+Given User is on Netbanking landing page....................................passed
+When User Login into application with username "Jan" and password "1234"....passed
+Then Homepage is populated..................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Portal Login" name="Homepage default login 2" time="0.001">
+        <system-out><![CDATA[Given Validate the browser..................................................passed
+When Broser is triggered....................................................passed
+Then Check if browser is started............................................passed
+Given User is on Netbanking landing page....................................passed
+When User Login into application with username "Janu" and password "234"....passed
+Then Homepage is populated..................................................passed
+And Cards displayed are "false".............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Portal Login" name="Homepage default login with data pipeline" time="0.007">
+        <system-out><![CDATA[Given Validate the browser..................................................passed
+When Broser is triggered....................................................passed
+Then Check if browser is started............................................passed
+Given User is on Netbanking landing page....................................passed
+When User sign up with following details....................................passed
+Then Homepage is populated..................................................passed
+And Cards displayed are "false".............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Portal Login" name="Homepage default login with parameters" time="0.001">
+        <system-out><![CDATA[Given Validate the browser..................................................passed
+When Broser is triggered....................................................passed
+Then Check if browser is started............................................passed
+Given User is on Netbanking landing page....................................passed
+When User Log in into application with username user1 and password pass1....passed
+Then Homepage is populated..................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Portal Login" name="Homepage default login with parameters 2" time="0.001">
+        <system-out><![CDATA[Given Validate the browser..................................................passed
+When Broser is triggered....................................................passed
+Then Check if browser is started............................................passed
+Given User is on Netbanking landing page....................................passed
+When User Log in into application with username user2 and password pass2....passed
+Then Homepage is populated..................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Portal Login" name="Homepage default login with parameters 3" time="0.001">
+        <system-out><![CDATA[Given Validate the browser..................................................passed
+When Broser is triggered....................................................passed
+Then Check if browser is started............................................passed
+Given User is on Netbanking landing page....................................passed
+When User Log in into application with username user3 and password pass3....passed
+Then Homepage is populated..................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Portal Login" name="Homepage default login with parameters 4" time="0.001">
+        <system-out><![CDATA[Given Validate the browser..................................................passed
+When Broser is triggered....................................................passed
+Then Check if browser is started............................................passed
+Given User is on Netbanking landing page....................................passed
+When User Log in into application with username user4 and password pass4....passed
+Then Homepage is populated..................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Portal Login" name="Homepage default login with parameters 5" time="0.001">
+        <system-out><![CDATA[Given Validate the browser..................................................passed
+When Broser is triggered....................................................passed
+Then Check if browser is started............................................passed
+Given User is on Netbanking landing page....................................passed
+When User Log in into application with username user5 and password pass5....passed
+Then Homepage is populated..................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
